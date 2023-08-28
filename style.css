@@ -1,0 +1,72 @@
+
+#list{
+    list-style-type:none; 
+    list-style-position: inside;
+    width: 20rem;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+.container{
+     background: white;
+     width: fit-content;
+     height: fit-content;
+     position: absolute;
+     right: 28rem;
+     top: 10rem;
+     border: 4px solid black;
+     margin: 30px;
+     min-height: 300px;
+     min-width  : 300px;
+     padding: 20px;
+     
+}
+.input{
+border: none;
+outline: none;
+flex: 1;
+padding: 10px;
+width: 25rem;
+border-radius:30px ;
+font-size: 20px;
+margin: 25px;
+background:lightgray;
+}
+.btn{
+    font-size: 20px;
+    width: 60px;
+    background: orangered;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cancelbtn{
+    color: red;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    right: 50px;
+    position: absolute;
+}
+
+.delete-all{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background:orangered ;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.all{
+   width: 90px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   padding-bottom: 20px;
+   padding-right: 10px;
+}
